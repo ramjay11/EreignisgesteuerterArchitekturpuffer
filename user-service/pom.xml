@@ -51,7 +51,13 @@
 			<artifactId>guava</artifactId>
 			<version>33.0.0-jre</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.ramjava</groupId>
+            <artifactId>common-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
